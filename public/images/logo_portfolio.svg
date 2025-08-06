@@ -1,0 +1,18 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1fdf7c" />
+      <stop offset="100%" stop-color="#64e5ff" />
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04130e" />
+      <stop offset="100%" stop-color="#121212" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cercle extérieur avec dégradé -->
+  <circle cx="200" cy="150" r="80" stroke="url(#logoGradient)" stroke-width="4" fill="none" />
+  
+  <!-- Lettres MD modernes -->
+  <text x="200" y="177.5" font-family="Ubuntu, sans-serif" font-size="70" font-weight="bold" text-anchor="middle" fill="none" stroke="url(#logoGradient)" stroke-width="2">MD</text>
+  </svg> 

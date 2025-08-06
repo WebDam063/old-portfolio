@@ -1,0 +1,18 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1fdf7c" />
+      <stop offset="100%" stop-color="#64e5ff" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cercle extérieur avec dégradé -->
+  <circle cx="30" cy="30" r="28" stroke="url(#logoGradient)" stroke-width="2" fill="none" />
+  
+  
+  <!-- Lettres DM modernes -->
+  <text x="30" y="38" font-family="Ubuntu, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="none" stroke="url(#logoGradient)" stroke-width="1.2">MD</text>
+  
+  <!-- Petite ligne d'accent sous les lettres -->
+  <line x1="20" y1="42" x2="40" y2="42" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round" />
+</svg> 
